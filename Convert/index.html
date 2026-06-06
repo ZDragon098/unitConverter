@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <h1> Unit Converter</h1>
+        <!-- Tabs -->
+        <div>
+            <a href = "index.html">Length</a>
+            <a href = "weight.html">Weight</a>
+            <a href = "temperature.html">Temperature</a>
+        </div>
+
+        <!-- Input Section -->
+        <div>
+            <div>
+                <label> Enter Value: </label>
+                <input type="number" id="length-value" placeholder="Enter value">
+            </div>
+
+            <div>
+                <label>Unit to convert from</label>
+                <select id="length-from">
+                    <option value="kilometer">Kilometer</option>
+                    <option value="meter">Meter</option>
+                    <option value="decimeter">Decimeter</option>
+                    <option value="centimeter">Centimeter</option>
+                    <option value="millimeter">Millimeter</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Unit to convert to</label>
+                <select id="length-to">
+                    <option value="kilometer">Kilometer</option>
+                    <option value="meter">Meter</option>
+                    <option value="decimeter">Decimeter</option>
+                    <option value="centimeter">Centimeter</option>
+                    <option value="millimeter">Millimeter</option>
+                </select>
+            </div>
+
+            <button id="length-convert">Convert</button>
+        </div>
+
+        <!-- Result Section -->
+         <div id = "result">
+            <h3>Result to convert </h3>
+            <p id = "result-text"></p>
+            <button id = "reset-btn">Reset</button>
+         </div>
+
+         <script src="./main.js"></script>
+    </div> 
+</html>
