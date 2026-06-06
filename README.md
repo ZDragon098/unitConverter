@@ -155,7 +155,7 @@ Nếu bạn gặp vấn đề hoặc có câu hỏi:
 ## 📄 Giấy Phép (License)
 
 Dự án này được phát hành dưới dạng mã mở cho mục đích học tập.
-
+Ý tưởng dự án(Idea Project): https://roadmap.sh/projects/unit-converter
 ---
 
 **Chúc bạn sử dụng ứng dụng vui vẻ! 🎉**
